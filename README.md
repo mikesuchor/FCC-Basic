@@ -1,2 +1,2 @@
-# FreeCodeCamp-Basic-Algorithm-Scripting
+# FCC Basic
 FreeCodeCamp Basic Algorithm Scripting Exercises
