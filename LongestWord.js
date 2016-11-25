@@ -4,7 +4,7 @@ Your response should be a number.
 */
 
 function findLongestWord(str) {
-    // Variable to store the length of the longest word
+  // Variable to store the length of the longest word
   var longest = 0;
   // Split the string into an array of words
   str = str.split(' ');
