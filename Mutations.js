@@ -10,12 +10,12 @@ Lastly, ["Alien", "line"], should return true because all of the letters in "lin
 function mutation(arr) {
 
 // If the current letter of the second word is not found in the first word, return false
-  for(var i = 0; i < arr[1].length; i++) {
-    if(arr[0].toUpperCase().indexOf(arr[1].toUpperCase()[i]) === -1) {
-       return false;
-       }
+for(var i = 0; i < arr[1].length; i++) {
+  if(arr[0].toUpperCase().indexOf(arr[1].toUpperCase()[i]) === -1) {
+    return false;
   }
-  return true;
+}
+return true;
 }
 
 console.log(mutation(["hello", "hey"]));

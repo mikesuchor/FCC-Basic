@@ -4,7 +4,7 @@ For the purpose of this exercise, you should also capitalize connecting words li
 */
 
 function titleCase(str) {
-    // Splits the string into an array of words
+  // Splits the string into an array of words
   str = str.split(' ');
   // Upper cases the first character and lower cases the characters after the first
   for (var i = 0; i < str.length; i++) {

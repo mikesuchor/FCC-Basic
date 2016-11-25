@@ -8,7 +8,7 @@ function largestOfFour(arr) {
   var finalArray = [];
   // 
   for (var i = 0; i < arr.length; i++) {
-      // Variable to store the largest number in an array and resets to 0 after each array
+    // Variable to store the largest number in an array and resets to 0 after each array
     var largestNumber = 0;
     // Checks if the current number is larger than the current largest number in an array and if it is stores it as the new largest number
     for (var j = 0; j < arr[i].length; j++) {

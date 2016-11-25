@@ -10,20 +10,20 @@ All letters will be uppercase. Do not transform any non-alphabetic character (i.
 function rot13(str) {
 
     // Arrays to store ascii codes and ascii codes to letters
-  var codes = [];
-  var letters = [];
+    var codes = [];
+    var letters = [];
   
-  // Push the ascii code from the string to the ascii codes array
-  for (var i = 0; i < str.length; i++) {
-    codes.push(str.charCodeAt(i));
-  }
-  
-  // Loop through the codes array
-  for (var j = 0; j < codes.length; j++) {
-      // If the ascii code is a symbol, push it to the array
-    if (codes[j] >= 32 && codes[j] <= 64) {
-      letters.push(String.fromCharCode(codes[j]));
+    // Push the ascii code from the string to the ascii codes array
+    for (var i = 0; i < str.length; i++) {
+      codes.push(str.charCodeAt(i));
     }
+  
+    // Loop through the codes array
+    for (var j = 0; j < codes.length; j++) {
+      // If the ascii code is a symbol, push it to the array
+      if (codes[j] >= 32 && codes[j] <= 64) {
+        letters.push(String.fromCharCode(codes[j]));
+      }
     // If the ascii code is between A-M add 13 to it
     else if (codes[j] < 78) {
       codes[j] += 13;
